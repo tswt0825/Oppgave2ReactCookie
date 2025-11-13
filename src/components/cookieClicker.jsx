@@ -16,7 +16,7 @@ export default function CookieClicker() {
         style={{ border: "none", background: "none" }}
       >
         <img
-          src="/cookie.png"
+          src="/public/cookie.png"
           alt="Cookie"
           style={{ width: "150px", cursor: "pointer" }}
         />
