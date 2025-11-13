@@ -1,4 +1,5 @@
 import { useState } from "react";
+import cookie from "/cookie.png";
 
 export default function CookieClicker() {
   const [score, setScore] = useState(0);
@@ -15,11 +16,7 @@ export default function CookieClicker() {
         onClick={handleClick}
         style={{ border: "none", background: "none" }}
       >
-        <img
-          src="/public/cookie.png"
-          alt="Cookie"
-          style={{ width: "150px", cursor: "pointer" }}
-        />
+        <img src={cookie} alt="Cookie" style={{ width: "150px" }} />
       </button>
     </div>
   );
