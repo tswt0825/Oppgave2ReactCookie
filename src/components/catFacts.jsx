@@ -10,9 +10,6 @@ export default function CatFacts() {
       try {
         const response = await fetch("https://catfact.ninja/facts?limit=5");
 
-        if (!response.ok) {
-          throw new Error("Kunne ikke hente data.");
-        }
 
         const data = await response.json();
         setFacts(data.data);
