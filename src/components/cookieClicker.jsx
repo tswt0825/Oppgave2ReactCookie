@@ -18,6 +18,12 @@ export default function CookieClicker() {
       >
         <img src={cookie} alt="Cookie" style={{ width: "150px" }} />
       </button>
+      <button
+        onClick={handleClick}
+        style={{ border: "none", background: "none" }}
+      >
+        <img src={cookie} alt="Cookie" style={{ width: "150px" }} />
+      </button>
     </div>
   );
 }
